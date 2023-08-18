@@ -5,18 +5,18 @@ import { motion } from 'framer-motion'
 
 const Contact = () => {
   return (
-    <div className=' py-10 px-10 text-white h-screen' id='contact'>
+    <div className=' py-10 px-10 md:mt-20 h-[90vh] text-white' id='contact'>
       <div>
         <Reveal>
-          <p className=' text-2xl md:text-3xl text-green-400 font-bold'>Contact Me</p>
+          <p className=' text-2xl  md:text-3xl text-green-400 font-bold'>Contact Me</p>
         </Reveal>
       </div>
-      <div class=" text-base md:text-xl xl:text-2xl font-bold md:mx-20 xl:mx-40 mt-10 md:mt-10 xl:mt-20">
+      <div className=" text-base md:text-xl xl:text-2xl font-bold md:mx-20 xl:mx-40 mt-10 md:mt-10 xl:mt-20">
         <Reveal>
-          <p>If you liked my work and want to <span class=" text-green-400">work together</span>, feel free to contact me on any of the given links below.</p>
+          <p>If you liked my work and want to <span className=" text-green-400">work together</span>, feel free to contact me on any of the given links below.</p>
         </Reveal>
         <Reveal>
-          <p class=" mt-10">Lets create something beautiful together!</p>
+          <p className=" mt-10">Lets create something beautiful together!</p>
         </Reveal>
         
       </div>
@@ -37,7 +37,7 @@ const Contact = () => {
               target='_blank'
           >
               <FaDiscord 
-                class="hover:text-green-400 hover:text-5xl hover:rotate-[360deg] duration-500"
+                className="hover:text-green-400 hover:text-5xl hover:rotate-[360deg] duration-500"
               />
           </a>
 
@@ -46,7 +46,7 @@ const Contact = () => {
               target='_blank'
           >
               <FaTwitter 
-                class="hover:text-green-400 hover:text-5xl hover:rotate-[360deg] duration-500"
+                className="hover:text-green-400 hover:text-5xl hover:rotate-[360deg] duration-500"
               />
           </a>
 
@@ -55,7 +55,7 @@ const Contact = () => {
               target='_blank'
           >
               <FaTelegram 
-                class="hover:text-green-400 hover:text-5xl hover:rotate-[360deg] duration-500"
+                className="hover:text-green-400 hover:text-5xl hover:rotate-[360deg] duration-500"
               />
           </a>
 

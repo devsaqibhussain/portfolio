@@ -14,7 +14,7 @@ const AboutMe = () => {
         </div>
       </Reveal>
       <Reveal>
-        <div className=' text-xl md:text-2xl text-justify'>
+        <div className=' text-lg md:text-3xl xl:text-2xl text-justify'>
           <p><span className='ml-16'>A</span> self-taught <span className=' text-green-400'>FrontEnd Web Developer</span> who loves learning new things and implementing them in his designs. I able to create fully functional websites that not only work seamlessly but also look beautiful. </p>
         </div>
       </Reveal>
@@ -28,13 +28,13 @@ const AboutMe = () => {
         animate = "visible"
         transition={{ duration: 2, delay:0.5, type: 'spring', bounce:0.75}}
         >
-        <p className=' text-green-400 font-bold'>TOOLS I USE:</p>
+        <p className=' text-green-400 md:text-xl font-bold'>TOOLS I USE:</p>
         <div className='flex text-white items-center gap-4 justify-center text-4xl my-4'>
-          <FaHtml5 class="hover:text-green-400 hover:text-5xl hover:rotate-[360deg] duration-500"/>
-          <FaCss3Alt class="hover:text-green-400 hover:text-5xl hover:rotate-[360deg] duration-500"/>
-          <SiJavascript class="hover:text-green-400 hover:text-5xl hover:rotate-[360deg] duration-500"/>
-          <FaReact class="hover:text-green-400 hover:text-5xl hover:rotate-[360deg] duration-500"/>
-          <SiTailwindcss class="hover:text-green-400 hover:text-5xl hover:rotate-[360deg] duration-500"/>
+          <FaHtml5 className="hover:text-green-400 hover:text-5xl hover:rotate-[360deg] duration-500"/>
+          <FaCss3Alt className="hover:text-green-400 hover:text-5xl hover:rotate-[360deg] duration-500"/>
+          <SiJavascript className="hover:text-green-400 hover:text-5xl hover:rotate-[360deg] duration-500"/>
+          <FaReact className="hover:text-green-400 hover:text-5xl hover:rotate-[360deg] duration-500"/>
+          <SiTailwindcss className="hover:text-green-400 hover:text-5xl hover:rotate-[360deg] duration-500"/>
 
         </div>
       </motion.div>

@@ -22,10 +22,10 @@ const Projects = () => {
         
         <div className=' md:w-[600px]'>
           <Reveal>
-            <p className=' my-5 text-green-400 text-xl md:text-2xl font-semibold'>Amazon's Clone</p>
+            <p className=' my-5 text-green-400 text-xl md:text-3xl xl:text-2xl font-semibold'>Amazon's Clone</p>
           </Reveal>
           <Reveal>
-            <p className=' md:text-lg text-justify'> The project showcases my ability to create fully function repsonsive <span className=' text-green-400'>product page</span> using grids, a <span className='text-green-400'>Search Bar with real time</span> suggestions of products,<span className='text-green-400'>Add to cart</span>  feature which uses state managment tool like <span className='text-green-400'>Redux</span> and <span className='text-green-400'>Checkout Menu</span> that calculates subtotal of all the products.</p>
+            <p className=' md:text-xl xl:text-lg text-justify'> The project showcases my ability to create fully function repsonsive <span className=' text-green-400'>product page</span> using grids, a <span className='text-green-400'>Search Bar with real time</span> suggestions of products,<span className='text-green-400'>Add to cart</span>  feature which uses state managment tool like <span className='text-green-400'>Redux</span> and <span className='text-green-400'>Checkout Menu</span> that calculates subtotal of all the products.</p>
           </Reveal>
           <Reveal>
             <p className=' mt-5 md:mt-10 text-green-400'><span className=' hidden xl:inline-block'><FaRegHandPointLeft/></span> Click on Image to Open Project!</p>
@@ -37,10 +37,10 @@ const Projects = () => {
         {/* SpaceThings */}
         <div className=' md:w-[600px]'>
           <Reveal>
-            <p className=' my-5 text-green-400 text-xl md:text-2xl font-semibold'>Responsive Website</p>
+            <p className=' my-5 text-green-400 text-xl md:text-3xl xl:text-2xl font-semibold'>Responsive Website</p>
           </Reveal>
           <Reveal>
-            <p className=' md:text-lg text-justify'> This is a small project but shows my ability to create responsive websites that work on both mobile and desktop devices. The website is space themed so if you have interest in that go ahead and check it out.</p>
+            <p className=' md:text-xl xl:text-lg text-justify'> This is a small project but shows my ability to create responsive websites that work on both mobile and desktop devices. The website is space themed so if you have interest in that go ahead and check it out.</p>
           </Reveal>
           <Reveal>
             <p className=' mt-5 md:mt-10 text-green-400'>Click on Image to Open Project! <span className=' hidden xl:inline-block'><FaRegHandPointRight/></span></p>
