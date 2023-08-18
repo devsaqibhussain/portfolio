@@ -7,7 +7,7 @@ const App = () => {
    <BrowserRouter>
     <NavBar/>
     <Routes>
-      <Route exact path={`/`} element={<HomePage/>}/>
+      <Route exact path={`/portfolio/`} element={<HomePage/>}/>
     </Routes>
     
    </BrowserRouter>

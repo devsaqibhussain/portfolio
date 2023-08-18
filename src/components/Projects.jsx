@@ -15,7 +15,7 @@ const Projects = () => {
         <ProductReveal>
           <div className=' border-2 border-white p-2 md:p-10 rounded-3xl bg-white md:w-[600px]'>
             <a href="https://devsaqibhussain.github.io/amazon/" target='blank'>
-              <img src="/images/amazon-frame.png" alt="Amazon Project showcase" />
+              <img src="http://www.devsaqibportfolio.com/images/amazon-frame.png" alt="Amazon Project showcase" />
             </a>
           </div>
         </ProductReveal>
@@ -49,7 +49,7 @@ const Projects = () => {
         <ProductReveal>
           <div className=' border-2 border-white mt-5 md:mt-0 p-2 md:p-5 rounded-3xl bg-white md:w-[600px]'>
             <a href="https://devsaqibhussain.github.io/responsive/" target='blank'>
-              <img src="/images/space-things.png" alt="Amazon Project showcase" />
+              <img src="http://www.devsaqibportfolio.com/images/space-things.png" alt="Amazon Project showcase" />
             </a>
           </div>
         </ProductReveal>
