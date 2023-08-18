@@ -7,9 +7,9 @@ import { motion } from 'framer-motion'
 
 const AboutMe = () => {
   return (
-    <div className='pt-40 px-10 md:py-56 md:px-60 text-white h-screen ' id="aboutme">
+    <div className='pt-40 px-10 xl:py-56 md:py-60 md:px-20 xl:px-60 text-white h-screen ' id="aboutme">
       <Reveal>
-        <div className='text-2xl md:text-3xl font-bold mb-10 md:mb-5'>
+        <div className='text-xl md:text-3xl font-bold mb-10 md:mb-20 xl:mb-5'>
           <p> <span className=' text-green-400'>Hi</span> I'm <span className=' text-green-400'>Saqib Hussain,</span></p>
         </div>
       </Reveal>
@@ -19,7 +19,7 @@ const AboutMe = () => {
         </div>
       </Reveal>
       
-      <motion.div className=' text-center text-green-400 mt-20 md:mt-5 rounded-full '
+      <motion.div className=' text-center text-green-400 mt-20 md:mt-50 xl:mt-5 rounded-full '
         variants={{
           hidden:{ y:75 , opacity:0},
           visible: {y:0, opacity:1}
@@ -29,12 +29,12 @@ const AboutMe = () => {
         transition={{ duration: 2, delay:0.5, type: 'spring', bounce:0.75}}
         >
         <p className=' text-green-400 font-bold'>TOOLS I USE:</p>
-        <div className='flex items-center gap-4 justify-center text-4xl my-4'>
-          <FaHtml5/>
-          <FaCss3Alt/>
-          <SiJavascript/>
-          <FaReact/>
-          <SiTailwindcss/>
+        <div className='flex text-white items-center gap-4 justify-center text-4xl my-4'>
+          <FaHtml5 class="hover:text-green-400 hover:text-5xl hover:rotate-[360deg] duration-500"/>
+          <FaCss3Alt class="hover:text-green-400 hover:text-5xl hover:rotate-[360deg] duration-500"/>
+          <SiJavascript class="hover:text-green-400 hover:text-5xl hover:rotate-[360deg] duration-500"/>
+          <FaReact class="hover:text-green-400 hover:text-5xl hover:rotate-[360deg] duration-500"/>
+          <SiTailwindcss class="hover:text-green-400 hover:text-5xl hover:rotate-[360deg] duration-500"/>
 
         </div>
       </motion.div>

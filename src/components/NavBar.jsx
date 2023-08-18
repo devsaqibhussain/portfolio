@@ -21,7 +21,7 @@ const NavBar = () => {
     <div className=' bg-stone-950/90 fixed w-[100%] md:sticky text-white top-0 z-10 '>
         <div className=' flex justify-between items-center py-4 relative'>
             <div className=' pl-4 md:relative md:px-10'>
-                <Link to={"/"}>
+                <Link to={"/portfolio/"}>
                     <p className=' hover:text-green-400 text-xl font-bold duration-500'>SaqibHussain <span className=' text-green-400 text-3xl'>.</span><span className=' text-green-400 text-sm'> DEV</span></p>
                 </Link>
                 

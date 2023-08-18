@@ -17,12 +17,12 @@ const ProductReveal = ({children}) => {
     <div ref={refrence}>
         <motion.div
             variants={{
-                hidden: { opacity:0, scale: 0, rotateZ: 90},
-                visible: { opacity:1, scale: 1, rotateZ: 0}
+                hidden: { opacity:0, scale: 0},
+                visible: { opacity:1, scale: 1}
             }}
             initial = "hidden"
             animate = {mainControls}
-            transition={{ duration: 0.75, delay: 0.25}}
+            transition={{ duration: 1}}
         >
             {children}
         </motion.div>
