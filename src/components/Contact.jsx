@@ -28,7 +28,7 @@ const Contact = () => {
         }}
         initial = "hidden"
         animate = "visible"
-        transition={{ duration: 2, delay:0.5, type: 'spring', bounce:0.75}}
+        transition={{ duration: 2, delay:2 , type: 'spring', bounce:0.75}}
       >
         <p className=' text-green-400 -mt-10 md:mb-10 md:mt-20 text-lg md:text-2xl xl:text-xl font-bold'>My Links:</p>
         <div className='flex text-white items-center gap-4 justify-center text-3xl md:text-5xl xl:text-4xl my-4'>

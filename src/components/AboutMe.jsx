@@ -15,7 +15,7 @@ const AboutMe = () => {
       </Reveal>
       <Reveal>
         <div className=' text-lg md:text-3xl xl:text-2xl text-justify'>
-          <p><span className='ml-16'>A</span> self-taught <span className=' text-green-400'>FrontEnd Web Developer</span> who loves learning new things and implementing them in his designs. I able to create fully functional websites that not only work seamlessly but also look beautiful. </p>
+          <p><span className='ml-16'>A</span> self-taught <span className=' text-green-400'>FrontEnd Web Developer</span> who loves learning new things and implementing them in his designs. I am able to create fully functional websites that not only work seamlessly but also look beautiful. </p>
         </div>
       </Reveal>
       
