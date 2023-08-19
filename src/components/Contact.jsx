@@ -34,11 +34,12 @@ const Contact = () => {
       
       <motion.div ref={refrence} className=' text-center text-green-400 mt-20 md:mt-5 rounded-full '
         variants={{
+          hidden:{ y:75, rotateZ: 30, opacity:0},
           visible: {y:0, rotateZ: 0, opacity:1}
         }}
         initial = "hidden"
         animate = {mainControls}
-        transition={{ duration: 3 , type: 'spring', bounce:0.75}}
+        transition={{ duration: 2, delay: 1 , type: 'spring', bounce:0.75}}
       >
         <p className=' text-green-400 -mt-10 md:mb-10 md:mt-20 text-lg md:text-2xl xl:text-xl font-bold'>My Links:</p>
         <div className='flex text-white items-center gap-4 justify-center text-3xl md:text-5xl xl:text-4xl my-4'>
