@@ -1,9 +1,20 @@
-import React from 'react'
+import React , { useEffect, useRef } from 'react'
 import { Reveal } from './'
 import { FaTwitter, FaDiscord,FaTelegram } from 'react-icons/fa'
-import { motion } from 'framer-motion'
+import { motion, useInView, useAnimation, } from 'framer-motion'
 
 const Contact = () => {
+  const refrence = useRef(null);
+    const mainControls = useAnimation()
+    const inView = useInView( refrence,{once: true})
+
+    useEffect(()=>{
+        if(inView){
+            mainControls.start("visible")
+        }
+    },[inView])
+
+
   return (
     <div className=' py-10 px-10 md:mt-20 h-[90vh] text-white' id='contact'>
       <div>
@@ -21,14 +32,13 @@ const Contact = () => {
         
       </div>
       
-      <motion.div className=' text-center text-green-400 mt-20 md:mt-5 rounded-full '
+      <motion.div ref={refrence} className=' text-center text-green-400 mt-20 md:mt-5 rounded-full '
         variants={{
-          hidden:{ y:75 , opacity:0},
-          visible: {y:0, opacity:1}
+          visible: {y:0, rotateZ: 0, opacity:1}
         }}
         initial = "hidden"
-        animate = "visible"
-        transition={{ duration: 2, delay:2 , type: 'spring', bounce:0.75}}
+        animate = {mainControls}
+        transition={{ duration: 3 , type: 'spring', bounce:0.75}}
       >
         <p className=' text-green-400 -mt-10 md:mb-10 md:mt-20 text-lg md:text-2xl xl:text-xl font-bold'>My Links:</p>
         <div className='flex text-white items-center gap-4 justify-center text-3xl md:text-5xl xl:text-4xl my-4'>
